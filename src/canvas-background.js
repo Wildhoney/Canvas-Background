@@ -35,7 +35,7 @@ export default (canvas, backgroundColour, { type, encoderOptions } = defaultOpti
     const imageData = canvas.toDataURL(type, encoderOptions);
 
     if (backgroundColour) {
-        context.clearRect (0, 0, width, h);
+        context.clearRect (0, 0, width, height);
         context.putImageData(data, 0, 0);
         context.globalCompositeOperation = compositeOperation;
     }

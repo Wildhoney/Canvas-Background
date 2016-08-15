@@ -1,0 +1,21 @@
+{
+  "name": "canvas-background",
+  "version": "0.1.0",
+  "description": "A super useful function for applying a background colour to a canvas element before invoking toDataURL.",
+  "main": "dist/canvas-background.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wildhoney/Canvas-Background.git"
+  },
+  "keywords": [
+    "canvas",
+    "background",
+    "jpeg",
+    "jpg"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wildhoney/Canvas-Background/issues"
+  },
+  "homepage": "https://github.com/Wildhoney/Canvas-Background#readme"
+}

@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/Wildhoney/Canvas-Background.git"
   },
+  "scripts": {
+      "build": "rollup -c"
+  },
   "keywords": [
     "canvas",
     "background",
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Wildhoney/Canvas-Background/issues"
   },
-  "homepage": "https://github.com/Wildhoney/Canvas-Background#readme"
+  "homepage": "https://github.com/Wildhoney/Canvas-Background#readme",
+  "devDependencies": {
+    "rollup": "^0.34.8"
+  }
 }

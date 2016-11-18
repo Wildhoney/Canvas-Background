@@ -20,6 +20,10 @@ var canvasBackground = (canvas, backgroundColour, { type, encoderOptions } = def
 
     const context = canvas.getContext('2d');
 
+    if (!context) {
+        return '';
+    }
+
     const width = canvas.width;
     const height = canvas.height;
 

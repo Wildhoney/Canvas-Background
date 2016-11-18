@@ -1,6 +1,6 @@
 {
   "name": "canvas-background",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A super useful function for applying a background colour to a canvas element before invoking toDataURL.",
   "main": "dist/canvas-background.js",
   "repository": {
